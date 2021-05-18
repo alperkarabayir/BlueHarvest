@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueHarvest.Api", "BlueHarvest.Api\BlueHarvest.Api.csproj", "{9000584C-B4D3-4711-9311-A2EF07872083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueHarvest.Core", "BlueHarvest.Core\BlueHarvest.Core.csproj", "{B3B0F09B-3762-4582-9156-6690B92C9434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueHarvest.Data", "BlueHarvest.Data\BlueHarvest.Data.csproj", "{B95F2647-C1A4-4E4C-86D7-56D9EB32A363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueHarvest.Services", "BlueHarvest.Services\BlueHarvest.Services.csproj", "{ED161333-37C8-4B97-A19C-E1F474B51271}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlueHarvest.Tests", "BlueHarvest.Tests", "{2760368F-5F58-4D54-99B3-3A8F94BC37BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueHarvest.IntegrationTests", "BlueHarvest.IntegrationTests\BlueHarvest.IntegrationTests.csproj", "{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9000584C-B4D3-4711-9311-A2EF07872083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9000584C-B4D3-4711-9311-A2EF07872083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9000584C-B4D3-4711-9311-A2EF07872083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9000584C-B4D3-4711-9311-A2EF07872083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B0F09B-3762-4582-9156-6690B92C9434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B0F09B-3762-4582-9156-6690B92C9434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B0F09B-3762-4582-9156-6690B92C9434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B0F09B-3762-4582-9156-6690B92C9434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95F2647-C1A4-4E4C-86D7-56D9EB32A363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95F2647-C1A4-4E4C-86D7-56D9EB32A363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95F2647-C1A4-4E4C-86D7-56D9EB32A363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95F2647-C1A4-4E4C-86D7-56D9EB32A363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED161333-37C8-4B97-A19C-E1F474B51271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED161333-37C8-4B97-A19C-E1F474B51271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED161333-37C8-4B97-A19C-E1F474B51271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED161333-37C8-4B97-A19C-E1F474B51271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B66CE0CA-CBFB-4B10-AACD-55C90BF0107A} = {2760368F-5F58-4D54-99B3-3A8F94BC37BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A83803A5-59BD-41B6-866A-856172FA096E}
+	EndGlobalSection
+EndGlobal
